@@ -1,0 +1,41 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layer bayangan -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Warna bayangan -->
+            <solid android:color="#D3D3D3" />
+
+            <!-- Radius sudut bayangan -->
+            <corners android:radius="12dp" />
+
+            <!-- Offset bayangan -->
+            <padding
+                android:left="1dp"
+                android:right="1dp"
+                android:bottom="5dp" />
+        </shape>
+    </item>
+
+    <!-- Layer utama (rectangle putih) -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Pengaturan background warna putih -->
+            <solid android:color="#FFFFFF" />
+
+            <!-- Pengaturan border putih -->
+            <stroke
+                android:width="2dp"
+                android:color="#D7D7D7" />
+
+            <!-- Pengaturan sudut melengkung -->
+            <corners android:radius="12dp" />
+
+            <!-- Padding di dalam rectangle -->
+            <padding
+                android:left="16dp"
+                android:top="16dp"
+                android:right="16dp"
+                android:bottom="16dp" />
+        </shape>
+    </item>
+</layer-list>
